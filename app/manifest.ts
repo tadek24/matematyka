@@ -1,0 +1,2 @@
+import type {MetadataRoute} from 'next';
+export default function manifest():MetadataRoute.Manifest{return {name:'Iloczyn — arena matematyczna',short_name:'Iloczyn',description:'Konkurs matematyczny na żywo',start_url:'/',display:'standalone',background_color:'#f4f2eb',theme_color:'#153d35',lang:'pl',icons:[{src:'/icons/icon-192.png',sizes:'192x192',type:'image/png',purpose:'any'},{src:'/icons/icon-512.png',sizes:'512x512',type:'image/png',purpose:'maskable'}]};}
